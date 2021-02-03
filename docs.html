@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SequenceLayout | Layout easily</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <div class="logo-area">
+                <a href="index.html">
+                    <div class="logo"></div>
+                    <h1 class="logo-text">Sequence<span>Layout</span></h1>
+                </a>
+            </div>
+            <nav class="nav nav-closed">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                    <li><a href="examples.html">Examples</a></li>
+                    <li><a href="https://github.com/yasharpm/SequenceLayout" target="_blank">GitHub</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <div class="humburger"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head py-3">
+        <div class="container">
+            <div>
+                <h1 class="title">Documents</h1>
+                <p>Learn how to use this cool layout!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main py-4">
+        <div class="container grid">
+            <div class="card p3">
+                <button class="dropdown-btn">Getting started</button>
+                <div class="dropdown-container">
+                    <a href="#download">Download</a>
+                    <a href="#install">Install</a>
+                </div>
+
+                <button class="dropdown-btn">Layout</button>
+                <div class="dropdown-container">
+                    <a href="#">span</a>
+                    <a href="#">span</a>
+                </div>
+
+                <button class="dropdown-btn">Test</button>
+                <div class="dropdown-container">
+                    <a href="#">test1</a>
+                    <a href="#">test2</a>
+                    <a href="#">test3</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 id="download">Download</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus deleniti alias
+                    provident nesciunt ratione animi ab enim, nostrum ea ipsam magnam dicta dolores blanditiis,
+                    temporibus porro aliquam vero. Quidem.</p>
+
+                <h2 id="install">Install</h2>
+                <p>NPM</p>
+                <pre><code>$ npm install sequencelayout</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install sequencelayout</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container grid">
+            <nav class="links">
+                <ul class="flex">
+                    <li><a href="docs.html">Docs</a></li>
+                    <li><a href="examples.html">Examples</a></li>
+                    <li><a href="https://github.com/yasharpm/SequenceLayout" target="_blank">Github</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+
+            <div class="ver">
+                <p>Current version is 1.1.1</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
